@@ -1,0 +1,158 @@
+{
+    "appKeys": {
+        "KEY_CO2_DOWN": 6,
+        "KEY_CO2_MID": 5,
+        "KEY_CO2_UP": 4,
+        "KEY_CONDITION": 7,
+        "KEY_TEMPERATURE_DOWN": 3,
+        "KEY_TEMPERATURE_MID": 2,
+        "KEY_TEMPERATURE_OUT": 0,
+        "KEY_TEMPERATURE_UP": 1
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "DH",
+    "longName": "Netatmo",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menuicon.png",
+                "menuIcon": true,
+                "name": "MENUICON",
+                "type": "png"
+            },
+            {
+                "file": "data/DISCONNECTED.pdc",
+                "name": "DISCONNECTED",
+                "type": "raw"
+            },
+            {
+                "file": "data/BATTERY_BG.pdc",
+                "name": "BATTERY_BG",
+                "type": "raw"
+            },
+            {
+                "file": "images/digit_9.png",
+                "name": "CLOCK_DIGIT_9",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_8.png",
+                "name": "CLOCK_DIGIT_8",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_7.png",
+                "name": "CLOCK_DIGIT_7",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_6.png",
+                "name": "CLOCK_DIGIT_6",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_5.png",
+                "name": "CLOCK_DIGIT_5",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_4.png",
+                "name": "CLOCK_DIGIT_4",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_3.png",
+                "name": "CLOCK_DIGIT_3",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_2.png",
+                "name": "CLOCK_DIGIT_2",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_1.png",
+                "name": "CLOCK_DIGIT_1",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_0.png",
+                "name": "CLOCK_DIGIT_0",
+                "type": "png"
+            },
+            {
+                "file": "data/PARTLY_CLOUDY_NIGHT.pdc",
+                "name": "WEATHER_PARTLY_CLOUDY_NIGHT",
+                "type": "raw"
+            },
+            {
+                "file": "data/CLEAR_NIGHT.pdc",
+                "name": "WEATHER_CLEAR_NIGHT",
+                "type": "raw"
+            },
+            {
+                "file": "data/WEATHER_GENERIC.pdc",
+                "name": "WEATHER_GENERIC",
+                "type": "raw"
+            },
+            {
+                "file": "data/CLEAR_DAY.pdc",
+                "name": "WEATHER_CLEAR_DAY",
+                "type": "raw"
+            },
+            {
+                "file": "data/PARTLY_CLOUDY.pdc",
+                "name": "WEATHER_PARTLY_CLOUDY",
+                "type": "raw"
+            },
+            {
+                "file": "data/CLOUDY_DAY.pdc",
+                "name": "WEATHER_CLOUDY",
+                "type": "raw"
+            },
+            {
+                "file": "data/HEAVY_RAIN.pdc",
+                "name": "WEATHER_HEAVY_RAIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/HEAVY_SNOW.pdc",
+                "name": "WEATHER_HEAVY_SNOW",
+                "type": "raw"
+            },
+            {
+                "file": "data/LIGHT_RAIN.pdc",
+                "name": "WEATHER_LIGHT_RAIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/LIGHT_SNOW.pdc",
+                "name": "WEATHER_LIGHT_SNOW",
+                "type": "raw"
+            },
+            {
+                "file": "data/RAINING_AND_SNOWING.pdc",
+                "name": "WEATHER_RAINING_AND_SNOWING",
+                "type": "raw"
+            },
+            {
+                "file": "data/THUNDERSTORM.pdc",
+                "name": "WEATHER_THUNDERSTORM",
+                "type": "raw"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Netatmo",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "426e7008-45e4-422e-8bc4-7cce769297af",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
